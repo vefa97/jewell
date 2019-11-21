@@ -1,0 +1,17 @@
+  @media (max-width: 575px) {
+
+
+    	footer .threefooter ul li{
+    		margin-top: 5px;
+    	}
+   	footer  .copyright-text p{
+        margin-top: 55px
+   	}
+
+    }
+
+  .contactH{
+color: white;
+font-size: 50px;
+padding-top:60px;
+  }

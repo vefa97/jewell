@@ -1,0 +1,253 @@
+.tm-container-2{
+margin-top: 10%
+}
+.tm-welcome-text{
+text-align: center;
+font-size:35px;
+}
+
+
+.tm-timeline-item {
+    margin-left: 70px;
+}
+
+.tm-timeline-item-inner {
+    display: flex;
+    align-items: center;
+}
+
+.tm-img-timeline {
+  border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.tm-img-timeline:hover{
+   transform: scale(1.1);
+}
+.tm-timeline-connector {
+    width: 55px;
+    height: 3px;
+    background-color: #404040;
+}
+
+.tm-timeline-connector-vertical {
+    height: 60px;
+    width: 3px;
+    background-color: #404040;
+    margin-left: 260px;
+}
+
+.tm-timeline-description {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+    padding: 35px 40px;
+    max-width: 712px;
+}
+
+
+
+footer {
+background-color: white;
+    margin-top: 65px;
+  }
+footer .footerbutton{
+
+  top:25px !important
+}
+
+
+  .copyright-text {
+    margin-top: 25px;
+  }
+
+  .copyright-text p {
+    font-family: 'Dosis';
+    font-size: 14px;
+    /* color: #fff;*/
+  }
+
+/*.copyright-text a {
+    color: #fff;
+    }*/
+
+    .copyright-text em {
+      font-style: normal;
+      color: #fff;
+    }
+
+    .back-to-top {
+      margin-top: 15px;
+      margin-left: 25%;
+      width: 170px;
+      height: 34px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .back-to-top a {
+      font-family: 'Dosis';
+      font-size: 17px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border: 3px solid lightblue;
+      width: 170px;
+      height: 40px;
+      display: inline-block;
+      line-height: 35px;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      background-color: #00b4c6;
+    }
+
+    .back-to-top a:hover {
+      background-color: lightblue;
+
+      border-color: blue;
+    }
+@media (max-width: 575px) {
+  .iconimage{
+    margin-top: 15px;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+    }
+    .tm-container-2 {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tm-video-container {
+        max-width: 932px;
+        max-height: 466px;
+    }
+    .tm-video-text-overlay {
+        left: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    #google-map,
+    .tm-contact-form {
+        max-width: 100%;
+    }
+    .google-map-iframe {
+        width: 100%;
+    }
+    .tm-video-container {
+        max-width: 690px;
+        max-height: 345px;
+    }
+    .tm-video-text-overlay {
+        left: 45%;
+    }
+  .tm-video-text-overlay h1 {
+    font-size: 2.8rem;
+  }
+    .tm-timeline-item {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tm-timeline-item {
+        margin-left: 0;
+    }
+    .tm-video-container {
+        max-width: 510px;
+        max-height: 255px;
+    }
+    .tm-video-container,
+    .tm-welcome-video {
+        min-height: 220px;
+    }
+    .tm-video-text-overlay {
+        left: 25%;
+    }
+}
+
+@media (max-width: 584px) {
+    .tm-timeline-item-inner {
+        flex-direction: column;
+    }
+    .tm-timeline-connector {
+        width: 3px;
+        height: 55px;
+    }
+    .tm-timeline-connector-vertical {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 540px;
+    }
+    .tm-video-text-overlay {
+        left: 30%;
+    }
+    .tm-video-text-overlay h1 {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tm-video-container {
+        overflow-x: hidden;
+    }
+    .tm-welcome-video {
+        min-width: auto;
+        max-width: 125%;
+    }
+}
+
+
+
+/*@media (max-width: 480px) {
+  .social-icons {
+  margin-top: 25px !important
+}
+    }*/
+
+  @media (max-width: 720px) {
+  .social-icons {
+  margin-top: 30px!important
+}
+    }
+
+  @media (max-width: 900px) {
+  .social-icons {
+  margin-top:30px!important
+}
+    }
+
+
+
+  @media (max-width: 1000px) {
+  .social-icons {
+  margin-top:30px!important
+}
+    }
+  @media (max-width: 575px) {
+
+
+      footer .threefooter ul li{
+        margin-top: 5px;
+      }
+    footer  .copyright-text p{
+        margin-top: 55px
+    }
+
+    }

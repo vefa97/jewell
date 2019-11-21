@@ -1,0 +1,79 @@
+#about h1 {
+	margin-top: 5%
+}
+
+.aboutpict{
+	
+	/*  border-radius: 30% 40% 50%/70% 10% 90%;*/
+	border-radius: 36% 90% 50%/46% 1% 44%;
+	height: 360px;
+
+}
+
+.footerbutton{
+top: 15px
+}
+
+.commonH{
+	font-size: 45px;
+	color: red
+}
+
+
+
+.content-section {
+  margin: 60px 0;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 60px;
+}
+
+.section-title h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.product-content {
+  background-color: white;
+  border: 1px solid #dddddd;
+}
+.product-content h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.product-content h5 a {
+  color: #2a3f52;
+}
+.product-content h5 a:hover {
+  color: #e84c3d;
+}
+.product-content span {
+  color: #2a80b9;
+  display: block;
+}
+.product-content span.price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.workArea{
+	height: 330px;
+}
+.workshadow{
+	/*box-shadow: 6px 5px 3px 6px gray;*/
+}
+
+.square{
+	height: 500px;
+	/*width: 500px;*/
+}
+@media (max-width: 526px) {
+	.workArea {
+	  display: block;
+	  margin:0 auto;
+	  margin-top: 5px
+	}
+	.social-icons{
+		margin-top: 22px;
+	}
+}
